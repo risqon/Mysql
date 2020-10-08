@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+   
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <!-- <a href="/" class="btn btn-primary">Cancel</a><br><br> -->
+        <h1>Edit Data</h1>
+        <form action="" method="post">
+            <!--        ID      -->
+            <div class="form-group row">
+                <label for="string" class="col-sm-1 col-form-label">ID</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="ID" placeholder="ID" name="ID" value="<%= result.id  %>">
+                </div>
+            </div>
+            <!--        String      -->
+            <div class="form-group row">
+                <label for="string" class="col-sm-1 col-form-label">String</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="String" placeholder="String" name="String"value="<%= result.string  %>">
+                </div>
+            </div>
+            <!--       Integer        -->
+            <div class="form-group row">
+                <label for="integer" class="col-sm-1 col-form-label">Integer</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="Integer" placeholder="Integer" name="Integer" value="<%= result.integer  %>">
+                </div>
+            </div>
+            <!--       Float        -->
+            <div class="form-group row">
+                <label for="float" class="col-sm-1 col-form-label">Float</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="Float" placeholder="Float" name="Float" value="<%= result.float %>">
+                </div>
+            </div>
+            <!--    Date      -->
+            <div class="form-group row">
+                <label for="date" class="col-sm-1 col-form-label">Date</label>
+                <div class="col-sm-10">
+                    <input type="date" class="form-control" id="Date" placeholder="Date" name="Date" value="<%= result.date  %>">
+                </div>
+            </div>
+            <!--    Boolean    -->
+            <div class="form-group row">
+                <label for="Boolean" class="col-sm-1 col-form-label">Boolean</label>
+                <div class="col-sm-10">
+                    <select class="custom-select d-block w-100" id="Boolean" placeholder="Boolean" name="Boolean" value="<%= result.boolean  %>">
+                        <option><%= result.Boolean == "true"?"true":"false" %></option>
+                        <option>true</option>
+                        <option>false</option>
+                    </select>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="form-group row">
+                <!-- <a href="/" type="submit" class="btn btn-primary">Update</a> -->
+                <button type="submit" class="btn btn-primary">Update</button>
+            </div>
+        </form>
+    </div>
+</body>
+ 
+</html> 

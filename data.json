@@ -1,0 +1,44 @@
+[
+   {
+      "String": "gatau apa",
+      "Integer": "55",
+      "Float": "100.000",
+      "Date": "1997-03-05",
+      "Boolean": "true"
+   },
+   {
+      "String": "apa yaa",
+      "Integer": "11",
+      "Float": "100",
+      "Date": "1999-04-02",
+      "Boolean": "true"
+   },
+   {
+      "String": "itu ajah",
+      "Integer": "009",
+      "Float": "999",
+      "Date": "2002-02-02",
+      "Boolean": "false"
+   },
+   {
+      "String": "hhhmmmm",
+      "Integer": "222",
+      "Float": "222",
+      "Date": "2222-02-22",
+      "Boolean": "false"
+   },
+   {
+      "String": "hoooo",
+      "Integer": "hihihi",
+      "Float": "3",
+      "Date": "2003-03-03",
+      "Boolean": "true"
+   },
+   {
+      "String": "",
+      "Integer": "",
+      "Float": "",
+      "Date": "",
+      "Boolean": "false"
+   }
+]

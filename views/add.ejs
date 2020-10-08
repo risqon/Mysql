@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <!-- <a href="/" class="btn btn-primary">Cancel</a><br><br> -->
+        <h1>Add Data</h1>
+        <form action="" method="post">
+            <!--        String      -->
+            <div class="form-group row">
+                <label for="string" class="col-sm-1 col-form-label">String</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="String" placeholder="String" name="String">
+                </div>
+            </div>
+            <!--       Integer        -->
+            <div class="form-group row">
+                <label for="integer" class="col-sm-1 col-form-label">Integer</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="Integer" placeholder="Integer" name="Integer">
+                </div>
+            </div>
+            <!--       Float        -->
+            <div class="form-group row">
+                <label for="float" class="col-sm-1 col-form-label">Float</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="Float" placeholder="Float" name="Float">
+                </div>
+            </div>
+            <!--    Date      -->
+            <div class="form-group row">
+                <label for="date" class="col-sm-1 col-form-label">Date</label>
+                <div class="col-sm-10">
+                    <input type="date" class="form-control" id="Date" placeholder="Date" name="Date">
+                </div>
+            </div>
+            <!--    Boolean    -->
+            <div class="form-group row">
+                <label for="Boolean" class="col-sm-1 col-form-label">Boolean</label>
+                <div class="col-sm-10">
+                    <select class="custom-select d-block w-100" id="Boolean" placeholder="Boolean" name="Boolean">
+                        <option>Choose the boolean...</option>
+                        <option>true</option>
+                        <option>false</option>
+                    </select>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="form-group row">
+                <button type="submit" class="btn btn-primary">Save</button>
+            </div>
+
+        </form>
+    </div>
+</body>
+
+</html>
